@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=3 uid="uid://bj7lobbh3w3ni"]
+
+[ext_resource type="PackedScene" uid="uid://8st4scqt06l8" path="res://components/player/player.tscn" id="1_s48pi"]
+[ext_resource type="Script" path="res://player2.gd" id="2_xibmh"]
+[ext_resource type="SpriteFrames" uid="uid://cgp7i5owjqp12" path="res://components/player/spriteframes-blue.tres" id="3_gabbe"]
+
+[node name="Player2" instance=ExtResource("1_s48pi")]
+script = ExtResource("2_xibmh")
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+sprite_frames = ExtResource("3_gabbe")
